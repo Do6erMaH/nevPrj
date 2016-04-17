@@ -6,7 +6,7 @@ class Mail
     private $SubBody = array();
     private $body = array();
     private $ctencoding = "base64";
-    private $count_body = 1;
+    private $count_body = 1;    
     private $checkAddress = true;
     private $headers = array();
     private $ready_headers = array();

@@ -1,3 +1,4 @@
+<?php include("mail/footer.php") ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -10,17 +11,17 @@
 <script src="js/jquery.js"></script>
 <script src="js/jquery-migrate-1.1.1.js"></script>
 <script src="js/jquery.easing.1.3.js"></script>
-<script src="js/script.js"></script> 
+<script src="js/script.js"></script>
 <script src="js/superfish.js"></script>
 <script src="js/jquery.equalheights.js"></script>
 <script src="js/jquery.mobilemenu.js"></script>
 <script src="js/tmStickUp.js"></script>
 <script src="js/jquery.ui.totop.js"></script>
 <script>
- $(window).load(function(){
-  $().UItoTop({ easingType: 'easeOutQuart' });
+$(window).load(function(){
+    $().UItoTop({ easingType: 'easeOutQuart' });
   $('#stuck_container').tmStickUp({});
- }); 
+ });
 </script>
 <!--[if lt IE 8]>
  <div style=' clear: both; text-align:center; position: relative;'>
@@ -37,7 +38,7 @@
 <body class="page1" id="top">
 <!--==============================
               header
-=================================-->
+              =================================-->
 <header>
   <div class="container">
     <div class="row">
@@ -53,26 +54,26 @@
   <section id="stuck_container">
   <!--==============================
               Stuck menu
-  =================================-->
+=================================-->
     <div class="container">
       <div class="row">
         <div class="grid_12 ">
           <div class="navigation ">
             <nav>
               <ul class="sf-menu">
-               <li class="current"><a href="index.html">Home</a></li>
+               <li class="current"><a href="index.php">Home</a></li>
                <li><a href="about.html">About</a></li>
                <li><a href="services.html">Services</a></li>
-               <li><a href="blog.html">Blog</a></li>
+               <li><a href="blog.php">Blog</a></li>
                <li><a href="contacts.html">Contacts</a></li>
              </ul>
             </nav>
             <div class="clear"></div>
-          </div>       
-         <div class="clear"></div>  
+          </div>
+         <div class="clear"></div>
         </div>
-     </div> 
-    </div> 
+     </div>
+    </div>
   </section>
   <section class="page1_header">
     <div class="container">
@@ -93,8 +94,8 @@
         </div>
         <div class="grid_5">
           <h2>Strong <br> Stable <br> Safe</h2>
-          We help you run your business  in a successful way
-        </div>
+We help you run your business  in a successful way
+</div>
       </div>
     </div>
   </section>
@@ -104,17 +105,17 @@
     <div class="row">
       <div class="grid_3">
         <div class="block-1_count">10</div>
-        Years of <br> Experience
-        <div class="clear"></div>
+Years of <br> Experience
+<div class="clear"></div>
       </div>
       <div class="grid_3">
         <div class="block-1_count">30</div>
-        Successful <br> Projects
+Successful <br> Projects
         <div class="clear"></div>
       </div>
       <div class="grid_3">
         <div class="block-1_count">20</div>
-        Partner <br> Projects
+Partner <br> Projects
         <div class="clear"></div>
       </div>
       <div class="grid_3">
@@ -125,18 +126,18 @@
 </div>
 <!--=====================
           Content
-======================-->
+          ======================-->
 <section id="content"><div class="ic"></div>
   <div class="container">
     <div class="row">
       <div class="grid_10 preffix_1 ta__center">
         <div class="greet">
           <h2 class="head__1">
-            Welcome
+Welcome
           </h2>
           <p>Read more about the <a href="" rel="nofollow" class="color1">freebie</a> here. <br> Go to TemplateMonster.com and find more <a href="" rel="nofollow" class="color1">goodies</a> of this kind </p>
-          Curabitur vel lorem sit amet nulla ullamcorper fermentum. In vitae varius augue, eu consectetur ligula. Etiam dui eros, laoreet site amet est vel, commodo venenatis eros. Fusce adipiscing quam id risus sagittis, non consequat lacus interdum. nulla, eu sodales arcu. Quisque viverra nulla nunc, eu ultrices libero ultricies eget. Phasellus accumsan 
-        </div>
+Curabitur vel lorem sit amet nulla ullamcorper fermentum. In vitae varius augue, eu consectetur ligula. Etiam dui eros, laoreet site amet est vel, commodo venenatis eros. Fusce adipiscing quam id risus sagittis, non consequat lacus interdum. nulla, eu sodales arcu. Quisque viverra nulla nunc, eu ultrices libero ultricies eget. Phasellus accumsan
+</div>
       </div>
     </div>
   </div>
@@ -150,7 +151,7 @@
             <div class="extra_wrapper">
               <div class="text1"><a href="#">Experience</a></div>
               <p>Curabitur vel lorem sit amet nulla ullamcorper fermentum In vitae dert varius augue, eu consectetur ligulaam dui eros dertoli.</p>Fusce adipiscing quam id risus sagittis, non consequat lacus interdum. Proin ut tinciduntol nulla, eu sodales vertomin
-              <br>
+<br>
               <a href="#" class="link-1">more</a>
             </div>
           </div>
@@ -159,7 +160,7 @@
             <div class="extra_wrapper">
               <div class="text1"><a href="#">Marketing</a></div>
               <p>Curabitur vel lorem sit amet nulla ullamcorper fermentum In vitae dert varius augue, eu consectetur ligulaam dui eros dertoli.</p>Fusce adipiscing quam id risus sagittis, non consequat lacus interdum. Proin ut tinciduntol nulla, eu sodales vertomin
-              <br>
+<br>
               <a href="#" class="link-1">more</a>
             </div>
           </div>
@@ -185,8 +186,8 @@
         <img src="images/page1_img3.jpg" alt="" class="img_inner fleft">
           <p>Curabitur vel lorem sit amet nulla ullamcorper fermentum In vitae dert arius augue, eu consectetur </p>
           <p class="offset__1">Eligulaam dui eros dertolisce dertolo adipiscing quam id risus sagittis</p>
-          Curabitur vel lorem sit amet nulla ullamcorper fermentum In vitae dert rius augue, eu consectetur larem dui eros dertolisce dertolo 
-      </div>
+Curabitur vel lorem sit amet nulla ullamcorper fermentum In vitae dert rius augue, eu consectetur larem dui eros dertolisce dertolo
+</div>
       <div class="grid_4">
         <h4>Solutions</h4>
         <ul class="list-1">
@@ -214,20 +215,8 @@
 </section>
 <!--==============================
               footer
-=================================-->
-<footer id="footer">
-  <div class="container">
-    <div class="row">
-      <div class="grid_12"> 
-        <p>Do6erMaH &copy; 2016</p>
-<p><u><a href="https://vk.com/1ccfg" target="_blank">Do6erMaH</a></u>&nbsp;| Бесплатное изготовление сайтов</p>
-        </div>
-      </div>
-    </div>
-  </div>  
-</footer>
-<a href="#" id="toTop" class="fa fa-chevron-up"></a><div class="container">
+              =================================-->
+<?php echo $footer ?>
 
-</div>
 </body>
 </html>
